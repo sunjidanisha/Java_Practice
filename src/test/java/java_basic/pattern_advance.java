@@ -12,11 +12,15 @@ public class pattern_advance {
             }
             // spaces
             int spaces = 2 * (n - i);
-            for (int j = 1; j <= spaces; j++) {
+            for (int j = 1; j <= spaces; j++)
+
+            {
                 System.out.print(" ");
             }
             //2nd part half
-            for (int j = 1; j <= i; j++) {
+            for (int j = 1; j <= i; j++)
+
+            {
                 System.out.print("*");
             }
             System.out.println();
@@ -31,9 +35,9 @@ public class pattern_advance {
             for (int j = 1; j <= spaces; j++) {
                 System.out.print(" ");
             }
-            //2nd part half
+            //2nd part half part
             for (int j = 1; j <= i; j++) {
-                System.out.print("*");
+                System.out.print("**");
             }
             System.out.println();
         }
