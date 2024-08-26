@@ -3,7 +3,7 @@
 package java_basic.array;
 import java.util.Scanner;
 
-public class array_input {
+public class array1D_input {
     public static void main(String[] args) {
                 Scanner sc = new Scanner(System.in);
                 int n= sc.nextInt();
